@@ -1,0 +1,103 @@
+html, body{
+	 
+  padding: 2	;
+	font-family: Times New Roman, Arial, Helvetica, sans-serif;
+	margin: 3;
+}
+ 
+ 
+ 
+.flex-fill {
+    flex:1;
+}
+
+
+ 
+
+#page{
+ 
+  height: 100%;
+  margin-left: 13%;  
+	
+}
+
+
+#logo{
+	font-family: Arial;
+	text-align: center;
+	color: white;
+	
+}
+
+.bar-item{
+	
+  border-color: #FFFFFF;
+  border-width: 3px;
+  border-bottom: .5px solid rgba(255, 255, 255, 0.247);
+		 
+}
+
+
+
+table {   
+  border-collapse: collapse;
+	border: 1px solid gray;
+	font-family:  Times New Roman, Helvetica, sans-serif;
+	width: 80%;
+	margin: 0 auto;
+    
+ 
+}
+ 
+th {
+	border-bottom:1px #228B22;
+	background:none repeat scroll 0 0 #000000;
+	padding:10px;
+	color: #c0c0c0;
+}
+
+tr {
+	border-top:1px solid gray;
+	text-align:center;	
+}
+ 
+tr:nth-child(even) {background: #FFFFFF}
+tr:nth-child(odd) {background: #BBBBBB}	
+
+.addProduct {
+  
+  width: 100%;
+  border-color: #a88f20;
+  border: #a88f20;
+  top: 0;
+  background-color: #97761c;
+  text-align: center;
+  border-width: 3px;
+
+}
+.actionButton {
+  background-color: #4CAF50; /* Color de fondo */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto */
+  padding: 15px 32px; /* Espaciado alrededor del texto */
+  text-align: center; /* Centrar el texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Alinear en línea */
+  font-size: 16px; /* Tamaño de fuente */
+  margin: 4px 2px; /* Margen */
+  cursor: pointer; /* Cursor al pasar por encima */
+  border-radius: 25px; /* Radio del borde */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra */
+  transition-duration: 0.4s; /* Duración de la transición */
+}
+
+.actionButton:hover {
+  background-color: red; /* Cambio de color de fondo al pasar por encima */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5); /* Cambio de sombra al pasar por encima */
+}
+
+h3{
+	font-size: 28px;
+	color:aqua;
+
+	}

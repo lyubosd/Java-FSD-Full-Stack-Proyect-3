@@ -1,0 +1,29 @@
+table{
+	border:collapse;	
+	width: 100%;
+	text-align: left;
+	font-size: #000000;
+	
+}
+
+th{
+	background-color: #770606;
+	font-weight: bold;
+	padding: 10px;
+	border: 1px solid #090909;
+	color: #068f94;
+	font-size: 20px;
+	}
+
+	td{
+	padding: 10px;
+	border: 1px solid #093338
+	}
+
+	tr:hover{
+	background-color: #decaca;
+	}
+
+	tr:nth-child(odd){
+	background-color: #a59292;
+	}

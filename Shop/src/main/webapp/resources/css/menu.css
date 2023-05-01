@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.menu {
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    
+}
+
+.menu a{
+
+}
+#logo {
+    height: 100px;
+    top: 0;
+}
+.sidenav {
+
+    width: 100%;
+    border-color: #808080;
+    top: 0;
+    background-color: #a6eaea;
+    text-align: center;
+
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    white-space: nowrap;
+}
+
+.sidenav a:hover {
+    color: #0037ff;
+}
